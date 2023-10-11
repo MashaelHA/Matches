@@ -4,6 +4,7 @@
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   overflow: hidden;
   position: relative;
+  padding-top: 30px;
 }
 
 .box::before,
@@ -47,4 +48,15 @@
 .box:hover span {
     transform: translate3d(0, -50%, 0);
   /* transform: translate3d(-200%, 0, 0); */
+}
+
+/* #btnAllMatches {
+  padding-left: "45%",
+} */
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .box{padding-top: 40px;}
+  /* main > div > div >div {} */
 }

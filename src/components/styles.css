@@ -1,0 +1,7 @@
+.footerCard {
+  display: none; /* Initially hidden */
+}
+
+.cardContainer:hover .footerCard {
+  display: block; /* Visible on hover */
+}

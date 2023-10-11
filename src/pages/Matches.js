@@ -58,7 +58,7 @@ function Matches() {
             >
               <h4
                 className="box"
-                style={{ textAlign: "center", paddingTop: "7%", zIndex: "3" }}
+                style={{ textAlign: "center", zIndex: "3" }}
               >
                 <span>Your favourite team isn't playing today.</span>
               </h4>
